@@ -1,0 +1,210 @@
+@import "variables";
+
+// bg-colors
+.bg-yellow {
+    background-color: $clr-yellow;
+}
+
+.bg-yellow2 {
+    background-color: $clr-yellow2;
+}
+
+// text colors
+.a-black {
+    color: #505050 !important;
+
+    &:hover {
+        color: #505050 !important;
+    }
+}
+
+// font sizes
+.fs-11 {
+    font-size: .70rem;
+}
+
+.fs-12 {
+    font-size: .75rem;
+}
+
+.fs-13 {
+    font-size: .8125rem;
+}
+
+.fs-14 {
+    font-size: .875rem;
+}
+
+.fs-15 {
+    font-size: .9375rem;
+}
+
+.fs-16 {
+    font-size: 1rem;
+}
+
+.fs-17 {
+    font-size: 1.0625rem;
+}
+
+.fs-18 {
+    font-size: 1.125rem;
+}
+
+.fs-19 {
+    font-size: 1.1875rem;
+}
+
+.fs-20 {
+    font-size: 1.25rem;
+}
+
+.fwb {
+    font-weight: bold;
+}
+
+.fw200 {
+    font-weight: 200;
+}
+
+.fw500 {
+    font-weight: 500;
+}
+
+.fw600 {
+    font-weight: 600;
+}
+
+// letter spacings
+.ltr-spc-1 {
+    letter-spacing: 1;
+}
+
+.ltr-spc-2 {
+    letter-spacing: 2;
+}
+
+.ltr-spc-4 {
+    letter-spacing: 4 !important;
+}
+
+// buttons
+.custom-btn {
+    border-radius: 0 !important;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    padding: .5rem 1.5rem !important;
+
+    &:hover {
+        color: #fff;
+    }
+}
+
+.scon {
+    display: inline-block;
+    // background: $green;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+
+    i {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        line-height: 2;
+        color: #fff;
+    }
+}
+
+.bdr-rds-0 {
+    border-radius: 0px !important;
+}
+
+// overflows
+.ovr-wrp-any {
+    overflow-wrap: anywhere;
+}
+
+// #news {
+
+//     // custom arrows for swiper 
+//     .swiper-button-next::after,
+//     .swiper-button-prev::after {
+//         display: none;
+//     }
+
+//     .swiper-button-next,
+//     .swiper-button-prev {
+//         background-repeat: no-repeat;
+//         background-size: 100% auto;
+//         background-position: center;
+//     }
+
+//     .swiper-button-next {
+//         background-image: url("../img/navigation2.PNG");
+//     }
+
+//     .swiper-button-prev {
+//         background-image: url("../img/navigation1.PNG");
+//     }
+
+//     // custom arrows for swiper 
+//     .swiper-button-next::after,
+//     .swiper-button-prev::after {
+//         display: none;
+//     }
+
+//     .swiper-button-next,
+//     .swiper-button-prev {
+//         background-repeat: no-repeat;
+//         background-size: 100% auto;
+//         background-position: center;
+//     }
+
+//     .swiper-button-next {
+//         background-image: url("../img/navigation2.PNG");
+//         top: 80%;
+
+//     }
+
+//     .swiper-button-prev {
+//         background-image: url("../img/navigation1.PNG");
+//         top: 80%;
+//         left: 85%;
+//     }
+// }
+
+// #footer {
+//     height: 100%;
+//     width: 100%;
+
+//     h4 {
+//         font-weight: 600 !important;
+//         position: relative;
+//         margin-bottom: 1.5rem;
+
+//         &::after {
+//             content: "";
+//             position: absolute;
+//             bottom: -.5rem;
+//             left: 0;
+//             height: 3px;
+//             width: 2.5rem;
+//             background: #0a6edd;
+//         }
+//     }
+
+//     .sc-mda-links {
+
+//         ul li,
+//         ul li a {
+//             color: rgba(255, 255, 255, 0.60);
+//             transition: 0.2s ease all;
+
+//             &:hover {
+//                 color: #fff;
+//             }
+//         }
+//     }
+// }

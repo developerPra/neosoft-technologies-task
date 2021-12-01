@@ -1,0 +1,154 @@
+@import "utilities";
+
+body,
+html {
+    scroll-behavior: smooth;
+}
+
+// body declaration
+body {
+    font-family: Poppins, sans-serif !important;
+    color: #505050;
+}
+
+// big heading compo
+.big-heading {
+    position: relative;
+    text-align: center;
+    text-transform: uppercase;
+    color: #706960;
+    font-weight: bold;
+    // border: 1px solid red;
+
+    span {
+        opacity: .10;
+        font-size: 6rem;
+    }
+
+    h4 {
+        font-weight: 900;
+        position: absolute;
+        left: 50%;
+        bottom: 1.6rem;
+        transform: translate(-50%);
+    }
+}
+
+// scroll down btn
+
+
+// custom btn
+.btn-custom {
+    background-color: $clr-yellow2;
+    border-radius: 1rem;
+    padding: .5rem 1.5rem;
+}
+
+// navbar 
+nav {
+    .lang-select {
+        background: transparent;
+        border: none;
+    }
+
+    .color-select {
+        span {
+            height: 20px;
+            width: 20px;
+            display: inline-block;
+            border-radius: 50%;
+            padding-top: 2px;
+
+            &:nth-child(1) {
+                background: #265781;
+            }
+
+            &:nth-child(2) {
+                background: #52B27B;
+            }
+
+            &:nth-child(3) {
+                background: $clr-yellow;
+            }
+        }
+    }
+}
+
+// ************ sections starting here *****************
+#home {
+    height: 100vh;
+    width: 100%;
+
+    .main-home {
+        position: relative;
+        height: 100%;
+        width: 100%;
+        background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/topbg.png");
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center center;
+        clip-path: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+        shape-outside: polygon(0 0, 100% 0, 100% 80%, 0 90%);
+    }
+
+    .scroll-down {
+        background: $clr-yellow2;
+        border-radius: .5rem;
+        position: absolute;
+        padding: .5rem 1rem;
+        bottom: 6rem;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+#dam-bg {
+    height: 20vh;
+    width: 100%;
+    background: url("https://picsum.photos/id/10/1400/500");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    clip-path: polygon(0 36%, 100% 10%, 100% 100%, 0% 100%);
+}
+
+// tenders
+#tenders {
+    background: linear-gradient(#e6e6e69a, #fff);
+
+    img {
+        object-fit: cover;
+    }
+}
+
+// footer
+#footer {
+    form {
+        position: relative;
+
+        input {
+            background: rgba(0, 0, 0, 0.050);
+            border: 0px !important;
+            outline: none !important;
+            box-shadow: none;
+            height: 3.4rem;
+            width: 80%;
+            border-radius: 1.5rem;
+
+            &::placeholder {
+                color: #505050;
+            }
+        }
+
+        button {
+            position: absolute;
+            right: 1rem;
+            border-radius: 1.6rem;
+            text-transform: uppercase;
+            padding: .5rem 1.5rem;
+            font-weight: 600;
+        }
+    }
+}
+
+@import "media-query";
